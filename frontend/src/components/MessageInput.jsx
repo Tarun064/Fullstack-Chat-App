@@ -81,7 +81,7 @@ const MessageInput = () => {
           <input
             type="file"
             accept="image/*"
-            className="hidden"
+            className="hidden" //by using hidden here it will hide the etx coming of choose file, but in background use the same functionality when that button clicked
             ref={fileInputRef}
             onChange={handleImageChange}
           />

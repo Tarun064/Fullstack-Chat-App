@@ -2,6 +2,7 @@ import { THEMES } from "../constants";
 import { useThemeStore } from "../store/useThemeStore";
 import { Send } from "lucide-react";
 
+// for multiple themes we inject plugin of daisyui in tailwing.config.js file and also made the constants folder for those themes in array 
 const PREVIEW_MESSAGES = [
   { id: 1, content: "Hey! How's it going?", isSent: false },
   { id: 2, content: "I'm doing great! Just working on some new features.", isSent: true },

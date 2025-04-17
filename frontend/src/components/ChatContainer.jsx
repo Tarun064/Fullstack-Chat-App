@@ -50,7 +50,7 @@ const ChatContainer = () => {
       <div className="flex-1 overflow-y-auto p-4 space-y-4">
         {messages.map((message) => (
           <div
-            key={message._id}
+            key={message._id} // chat-start and chat end are used to align the messages left and right these the properties of daisy ui
             className={`chat ${message.senderId === authUser._id ? "chat-end" : "chat-start"}`}
             ref={messageEndRef}
           >
